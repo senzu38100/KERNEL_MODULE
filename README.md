@@ -13,9 +13,6 @@ which is almost impossible to intercept at the user level. However, by modifying
 Linux Kernel System Call Table (SCT), we can intercept the kill() system call and prevent specific processes from being terminated.
 
 
-!!!!!!!!!!!!!!!! I RECOMMAND YOU TO DO IT ON A VM, YOU WILL AVOID A LOT OF ISSUES IF THINGS GOES WRONG !!!!!!!!!!!!!!!
-
-
 How It Works
 System Call Hooking
 The kill() system call is intercepted by modifying the system call table (sys_call_table).
